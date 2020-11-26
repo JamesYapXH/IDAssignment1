@@ -1,14 +1,14 @@
 body{
-    margin: 0;
+    margin: 0;          /* Sets margin to 0 */
 }
 
 
 ul {
     list-style-type: none;  /* removes the dots next to the list */
     margin: 0 auto;         /* remove browser default settings */
-    padding: 20px 30px;
+    padding: 20px 30px;     /* adds padding */
     overflow: hidden;
-    background-color: #3A4455; 
+    background-color: #3A4455; /* changes color */
 
   }
   
@@ -18,7 +18,7 @@ ul {
   }
   
   li a {
-    display: block;
+    display: block;      /* align text, change color, change font and size as well as add padding */
     color: #82B583;
     text-align: center;
     padding: 14px 230px;
@@ -30,58 +30,58 @@ ul {
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: #111; /* adds hover color */
   }
 
   #me{
-      text-align: center;
+      text-align: center; /* align center */
   }
 
    #face{
-      float: center;
+      float: center;        /* Move data into center of page and move image according to margin */
       margin-left: 870px;
       margin-top: 100px;
   } 
 
   #about{
-      text-align: center;
+      text-align: center;          /* Align text to center,change font size,and move the words using margin */
       text-align: justify;
-      font-size: 20px;
+      font-size: 20px;      
       margin-top: 0px;
       margin-left: 720px;
       margin-right: 700px;
       margin-bottom: 100px;
   }
 
-  .flex-container{
+  .flex-container{            /* building flex and its structure */
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: #04304A;
+    background-color: #04304A;   
   }
-.flex-item{
+.flex-item{                  /* Flex item properties */
     text-align: center;
     background-color: #04304A;
     
     color: white;
 }
 
-#welcome{
+#welcome{                  /*  Set margin to 0 to reset browser settings */
     margin-top: 0;
 }
 
-#line{
+#line{                      /* move line and change its color */
     margin-left: 720px;
     color: white;
 }
 
 #background{
-  background-color: #04304A;
+  background-color: #04304A; /* change background color */
 }
 
 
 
-*{
+*{                              /* reset browser settings */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -94,33 +94,33 @@ ul {
 }
 
 #nameform{
-  color: black;
+  color: black;            /* change form color and background color */
   background-color: white;
   
 }
 
 
 #email{
-  background-color: white;
+  background-color: white;    /* change form color and background color */
   color: #111;
   
 }
 
-.Contact{
+.Contact{                     /* align text and color while adjusting position using margin for text */
   color:#82B583;
   text-align: center;
   font-size: 40px;
   margin-top: 100px;
   margin-bottom: 10px;
 }
-.Enquiry{
+.Enquiry{                 /* align text and color while adjusting position using margin for text */
   color: white;
   text-align: center;
   font-size: 20px;
   margin-bottom: 40px;
 }
 
-#emailme{
+#emailme{            /* edit label */
   color: white;
   margin-bottom: 50px;
 }
@@ -133,7 +133,7 @@ ul {
   padding: 10px;
 }
 
-input[type="text"]{
+input[type="text"]{            /* change margin,width and make the form side by side */
   width: 150px;
   display: inline-block;
   margin-right: 40px;
@@ -142,28 +142,28 @@ input[type="text"]{
 
 #enquiry1{
   background-color: white;
-  color: black;
+  color: black;                   /* edit label for form */
   width: 500px;
   height: 100px;
   text-align: left;
 }
 
 #emailme{
-  text-align: center;
+  text-align: center;           /* edit label for form */
   margin-top: 350px;
   font-size: 30px;
 }
 
 #python{
-  color: #82B583;
-  text-align: center;
+  color: #82B583;              /* change color,font and size and align text to the center */
+  text-align: center;               
   font-family: Calibri;
   font-size: 50px;
-  font-style: bold;
+  
 }
 
 .text{
-  color: #82B583;
+  color: #82B583;                    /* change color,font and size and align text to the center */
   font-family: Calibri;
   font-size: 50px;
   margin-left: 100px;
@@ -171,7 +171,7 @@ input[type="text"]{
 }
 
 #text2{
-  color: #82B583;
+  color: #82B583;                      /* change color,font and size and align text to the center */
   font-family: Calibri;
   font-size: 50px;
   margin-left: 100px;
@@ -179,7 +179,7 @@ input[type="text"]{
 }
 
 #text3{
-  color: #82B583;
+  color: #82B583;                 /* change color,font and size and align text to the center */
   font-family: Calibri;
   font-size: 50px;
   text-align: center;
@@ -188,12 +188,12 @@ input[type="text"]{
 }
 
 #gameplay{
-  float: right;
+  float: right;                 /* edit image positioning */
   margin-right: 300px;
   
 }
 
-#if_else{
+#if_else{                  /* edit image positioning */
   margin-top: 100px;
 }
 
