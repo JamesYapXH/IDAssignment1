@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+}
+
+
+ul {
+    list-style-type: none;  /* removes the dots next to the list */
+    margin: 0 auto;         /* remove browser default settings */
+    padding: 20px 30px;
+    overflow: hidden;
+    background-color: #3A4455; 
+
+  }
+  
+  li {
+    float: left;       /* so elements slide next to each other */
+    margin: 0 auto;  /* remove browser default settings */
+  }
+  
+  li a {
+    display: block;
+    color: #82B583;
+    text-align: center;
+    padding: 14px 230px;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: Calibri;
+    font-weight: bold;
+    
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  #me{
+      text-align: center;
+  }
+
+   #face{
+      float: center;
+      margin-left: 870px;
+      margin-top: 100px;
+  } 
+
+  #about{
+      text-align: center;
+      text-align: justify;
+      font-size: 20px;
+      margin-top: 0px;
+      margin-left: 720px;
+      margin-right: 700px;
+      margin-bottom: 100px;
+  }
+
+  .flex-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #04304A;
+  }
+.flex-item{
+    text-align: center;
+    background-color: #04304A;
+    
+    color: white;
+}
+
+#welcome{
+    margin-top: 0;
+}
+
+#line{
+    margin-left: 720px;
+    color: white;
+}
+
+#background{
+  background-color: #04304A;
+}
+
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .flex-container {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+#nameform{
+  color: black;
+  background-color: white;
+  
+}
+
+
+#email{
+  background-color: white;
+  color: #111;
+  
+}
+
+.Contact{
+  color:#82B583;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.Enquiry{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+#emailme{
+  color: white;
+  margin-bottom: 50px;
+}
+
+
+
+.content {
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+}
+
+input[type="text"]{
+  width: 150px;
+  display: inline-block;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+#enquiry1{
+  background-color: white;
+  color: black;
+  width: 500px;
+  height: 100px;
+  text-align: left;
+}
+
+#emailme{
+  text-align: center;
+  margin-top: 350px;
+  font-size: 30px;
+}
+
+#python{
+  color: #82B583;
+  text-align: center;
+  font-family: Calibri;
+  font-size: 50px;
+  font-style: bold;
+}
+
+.text{
+  color: #82B583;
+  font-family: Calibri;
+  font-size: 50px;
+  margin-left: 100px;
+  
+}
+
+#text2{
+  color: #82B583;
+  font-family: Calibri;
+  font-size: 50px;
+  margin-left: 100px;
+  margin-top: 700px;
+}
+
+#text3{
+  color: #82B583;
+  font-family: Calibri;
+  font-size: 50px;
+  text-align: center;
+  align-content: center;
+  ;
+}
+
+#gameplay{
+  float: right;
+  margin-right: 300px;
+  
+}
+
+#if_else{
+  margin-top: 100px;
+}
+
