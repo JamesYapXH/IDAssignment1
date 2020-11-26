@@ -38,7 +38,7 @@ ul {
   }
 
    #face{
-      float: center;        /* Move data into center of page and move image according to margin */
+             /* Move data into center of page and move image according to margin */
       margin-left: 870px;
       margin-top: 100px;
   } 
