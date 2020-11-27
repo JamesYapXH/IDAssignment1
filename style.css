@@ -167,12 +167,13 @@ input[type="text"]{            /* change margin,width and make the form side by 
 }
 
 #text3{
+  display: block;
   color: #82B583;                 /* change color,font and size and align text to the center */
   font-family: Calibri;
   font-size: 50px;
   text-align: center;
   align-content: center;
-  ;
+  
 }
 
 #gameplay{
